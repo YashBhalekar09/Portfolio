@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash's Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div id="preloader"></div>
+    <div id="cursor"></div>
+    <header class="active">
+      <a href="#home" class="logo">Yash's Portfolio.</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Roles</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- background -->
+
+    <div class="bars-box active">
+      <div class="bar" style="--i:6"></div>
+      <!-- <div class="bar" style="--i:5"></div>
+      <div class="bar" style="--i:4"></div> -->
+      <!-- <div class="bar" style="--i:3"></div>
+      <div class="bar" style="--i:2"></div>
+      <div class="bar" style="--i:1"></div> -->
+    </div>
+
+    <!-- Home section -->
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Yash Bhalekar.</h1>
+        <h2>I am a <span id="typed"></span></h2>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+          var typed = new Typed("#typed", {
+            strings: ["Coder", "Frontend Developer", "Web Designer"],
+            typeSpeed: 70,
+            backSpeed: 40,
+            backDelay: 1000,
+            loop: true,
+          });
+        </script>
+        <p>
+          A passionate Full Stack Developer 🚀.
+          I am a self motivated, hardworking student with a positive attitude and I am able to work well 
+          in a team environment.I have the ability to multitask effectively and I have a strong sense of time management.
+        </p>
+        <div class="btn-sci">
+          <a href="assets/Yash Bhalekar Resume.pdf" download="Yash Bhalekar Resume" class="btn">Download CV</a>
+          <div class="sci">
+            <a href="https://github.com/YashBhalekar09"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/yashbhalekar9/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/_.yashhh_09/"><i class="bx bxl-instagram"></i></a>
+            <a href="https://www.facebook.com/yash.bhalekar.77?mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="assets/profile.png" alt="img" />
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services">
+      <h2 class="heading">My <span>Roles</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Developement</h3>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxs-devices"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Front-end Developement</h3>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bxl-java"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Java Developer</h3>
+          
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-terminal"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Back-end Developement</h3>
+          
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-palette"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web Designing</h3>
+        </div>
+
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-data"></i>
+            <a href=""><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Database Management</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume section -->
+    <section class="resume ">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire Me?</h2>
+          <p class="desc">
+            I bring a strong proficiency in both front-end and back-end technologies, enabling me to build seamless, user-friendly applications.
+          </p>
+          <button class="resume-btn active">Education</button>
+          <button class="resume-btn ">Skills</button>
+          <button class="resume-btn">About Us</button>
+        </div>
+
+       <div class="resume-box">
+          <div class="resume-detail education active">
+            <h2 class="heading">My <span>Education</span></h2>
+            <!-- <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              omnis, ducimus nostrum repellendus
+            </p> -->
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2024 - Present</p>
+                <h3>Java Full Stack Course</h3>
+                <p class="company">AIIITS Kharghar</p>
+                <p>
+                  Pursuing Java Full-Stack Development program at AIITS, focusing on mastering front-end and back-end technologies, database management, and deployment practices. 
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2024 </p>
+                <h3>Bsc-IT Graduate</h3>
+                <p class="company">University Of Mumbai</p>
+                <p>
+                  Graduated with a Bachelor of Science in Information Technology. Gaining in-depth knowledge of programming, database management, networking, and software development.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2021</p>
+                <h3>HSC</h3>
+                <p class="company">Maharashtra Board</p>
+                <p>
+                  Completed the Higher Secondary Education (HSC) with Science stream.
+                  This qualification has equipped me with a strong academic base to support technical skills.
+                </p>
+              </div>
+
+              <div class="resume-item">
+                <p class="year">2019</p>
+                <h3>SSC</h3>
+                <p class="company">Maharashtra Board</p>
+                <p>
+                  Completed the Secondary School Education (SSC).
+                </p>
+                </div>
+
+                
+            </div>
+          </div>
+
+
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <!-- <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              omnis, ducimus nostrum repellendus
+            </p> -->
+            
+            <div class="resume-list">
+                <div class="resume-item">
+                    <i class="bx bxl-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-css3"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-javascript"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-angular"></i>
+                    <span>Angular.js</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-react"></i>
+                    <span>React.js</span>
+                </div>
+                
+                <div class="resume-item">
+                    <i class="bx bxl-java"></i>
+                    <span>Java</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxs-data"></i>
+                    <span>MySql</span>
+                </div>
+                <div class="resume-item">
+                    <i class="bx bxl-github"></i>
+                    <span>Github</span>
+                </div>
+                <div class="resume-item">
+                    <i class='bx bxl-visual-studio'></i>
+                    <span>VS Code</span>
+                </div>
+                <div class="resume-item">
+                    <i class='bx bxl-docker'></i>
+                    <span>Docker</span>
+                </div>
+            </div>
+        </div> 
+
+        <div class="resume-detail about ">
+            <h2 class="heading">About <span>Us</span></h2>
+            <!-- <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+              omnis, ducimus nostrum repellendus
+            </p> -->
+            <div class="resume-list">
+                <div class="resume-item">
+                    <p>Name: <span>Yash Bhalekar</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Gender: <span>Male</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Age: <span>20 Years Old</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>City: <span>Navi-Mumbai</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Nationality: <span>Indian</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Full Time: <span>Available</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Phone: <span>(+91) 7261923914</span></p>
+                </div>
+                <div class="resume-item">
+                    <p>Email: <span>ybhalekar09@gmail.com</span></p>
+                </div>
+            </div>
+        </div> 
+      </div>
+      
+    </section>
+
+    <!-- Portfolio section -->
+  <section class="portfolio ">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <div class="portfolio-detail active">
+                <p class="numb ">01</p>
+                <h3>EVolt Frontend Project</h3>
+                <p>This website will use HTML, CSS, and JavaScript to create interactiv 
+                  and smooth user experiences. 
+                  Implemented core functionalities by using Javascript.
+                  Responsive for all devices.</p>
+                <div class="tech">
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://yashbhalekar09.github.io/EVolt/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                    <a href="https://github.com/YashBhalekar09/EVolt" target="_blank"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numb">02</p>
+                <h3>Sidcuf Family Golf®</h3>
+                <p>Developed a functional clone of the SIDCUF Family Golf website using HTML, CSS, and JavaScript. The project replicates the original site’s design and interactive features, showcasing my skills in front-end development.</p>
+                <div class="tech">
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://yashbhalekar09.github.io/SidcufGolf/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                    <a href="https://github.com/YashBhalekar09/SidcufGolf" target="_blank"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                </div>
+            </div>
+            <div class="portfolio-detail">
+                <p class="numb">03</p>
+                <h3>Myntra Website</h3>
+                <p>Created a clone of the Myntra website using HTML, CSS, and JavaScript, showcasing responsive design and interactive features.</p>
+                <div class="tech">
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="live-github">
+                    <a href="https://yashbhalekar09.github.io/Myntra_clone/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                    <a href="https://github.com/YashBhalekar09/Myntra_clone" target="_blank"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <div class="portfolio-detail">
+              <p class="numb">04</p>
+              <h3>Real Estate Website</h3>
+              <p>Utilized Html , css to build the frontend user interface and
+                implemented core functionalities by using Javascript.
+                Bootstrap is a front-end framework that used to make responsive and mobile-first websites.
+                </p>
+              <div class="tech">
+                  <p>HTML, CSS, JavaScript, BootStrap</p>
+              </div>
+              <div class="live-github">
+                  <a href="https://yashbhalekar09.github.io/Real_Estate_Bootstrap_website/" target="_blank"><i class="bx bx-arrow-back"></i><span>Live Project</span></a>
+                  <a href="https://github.com/YashBhalekar09/Real_Estate_Bootstrap_website" target="_blank"><i class="bx bxl-github"></i><span>Github Repository</span></a>
+              </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-box">
+           <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="assets/project1.jpg" alt="">
+              </div>
+              <div class="img-item">
+                <img src="assets/project2.jpg" alt="">
+              </div>
+              <div class="img-item">
+                <img src="assets/project3.jpg" alt="">
+              </div>
+              <div class="img-item">
+                <img src="assets/project4.jpg" alt="">
+              </div>
+            </div>
+        </div>
+        <div class="navigation">
+          <button class="arrow-left disabled"><i class="bx bx-chevron-left"></i></button>
+          <button class="arrow-right"><i class="bx bx-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Contact section -->
+     <section class="contact ">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <!-- <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quam itaque debitis id tenetur, magnam nesciunt temporibus? Earum dolorum atque nesciunt beatae quos perferendis. Obcaecati accusamus fugit labore mollitia excepturi.</p>-->
+          <div class="contact-detail"> 
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+91) 7261923914</p>
+            </div>
+          </div>
+
+
+          <div class="contact-detail">
+            <i class="bx bxs-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>ybhalekar09@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Kharghar, Sector-3, Navi-Mumbai</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="5c6a82ac-948e-446b-a8f2-9834ef72efcb">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" name="Name"  required>
+              <input type="email" placeholder="Email Address" name="Email" required>
+              <input type="text" placeholder="Phone Number" name="Phone"  required>
+              <input type="text" placeholder="Email Subject" name="Subject"  required>
+              <textarea id="" placeholder="Your Message" name="Message"  required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+          
+        </div>
+      </div>
+     </section>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
